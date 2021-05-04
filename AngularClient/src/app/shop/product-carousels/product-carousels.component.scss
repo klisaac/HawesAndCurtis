@@ -1,0 +1,24 @@
+.carousel{
+    text-align: left;
+}
+::ng-deep .carousel-control-prev-icon{
+    background-image: url('../../../assets/images/seta_prim.png');
+  }
+  ::ng-deep .carousel-control-next-icon{
+    background-image: url('../../../assets/images/seta_ult.png');
+  }
+  
+  ::ng-deep .carousel-indicators li {
+    width : 20px!important;
+    background-color:white;
+    border: 2px solid black;
+    height: 20px;
+    border-radius: 100% !important
+  }
+  
+::ng-deep .carousel-indicators .active {
+    width : 20px!important;
+    background-color:blue;
+    height: 20px !important;
+    border-radius: 50% !important
+  }
